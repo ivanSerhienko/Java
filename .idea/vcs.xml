@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/1.First Progrrams/PracticeOne" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/1.First Progrrams/meet-strangers" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/10.Exeptions/catch-em-all" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/10.Exeptions/requirements" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/12.Generics/beware-of-dogs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/12.Generics/compass" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/14.Wrapper Classes/battleship8x8" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/15.Optional/optional-max" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/17.Collections/int-string-capped-map" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/17.Collections/ranged-ops-integer-set" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/17.Collections/special-collections" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/18.IO Streams/file-tree" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/19.Streams API/streams-count-words" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/19.Streams API/streams-pipelines" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/2.Data Types/electronic-watch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/20.Multithreading/RAF" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/20.Multithreading/counters" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/21.Design Patterns(SOLID GOF GRASP)/Decorator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/21.Design Patterns(SOLID GOF GRASP)/plot-factories" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/21.Design Patterns(SOLID GOF GRASP)/repository-observer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/22.JUnit/factorial" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/22.JUnit/test-quadratic-equation-master" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/23.JDBC/3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/23.JDBC/CRUD" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/23.JDBC/Create_reade" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/23.JDBC/JDBC_CRUD" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/23.JDBC/JDBC_createread_operations" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/23.JDBC/Transactions" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/24.XMLParsing/XMLParsing" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/3.Loops/average" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/3.Loops/go-dutch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/3.Loops/max-in-seq" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/3.Loops/meet-a-stranger" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/3.Loops/meet-an-agent" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/3.Loops/pizza-split" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/3.Loops/quadratic-equation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/3.Loops/snail" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/4.Arrays/cycle-swap" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/4.Arrays/local-maxima-remove" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/4.Arrays/max" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/4.Arrays/multiply-matrices" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/4.Arrays/spiral" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/4.Arrays/sum-of-even-numbers" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/4.Arrays/sum-of-previous" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/4.Arrays/transpose-matrix" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/5.Classes/decrementing-carousel" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/5.Classes/line-intersection" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/5.Classes/segments" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/5.Classes/triangle" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/6.Intodaction to OOP/decrementing-carousel-with-limit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/6.Intodaction to OOP/gradually-decreasing-carousel" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/6.Intodaction to OOP/halving-carousel" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/6.Intodaction to OOP/sprint-planning" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/7.Abstract classes and interfacies/figures" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/7.Abstract classes and interfacies/figures-extra" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/7.Abstract classes and interfacies/task-carouse" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/7.Abstract classes and interfacies/validations-epam-email" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/8. Nested Classes/arithmetic-expressions" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/8. Nested Classes/contact-book" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/9. Working with Strings/validations-color-code" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EPAM_JAVA_COURSE_TASKS/9. Working with Strings/words" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JavaUneversityTasks/JDBC/JDBC" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JavaUneversityTasks/Multithreading/Individual task - Java" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SelfStudy/Docker/TestDocker" vcs="Git" />
+  </component>
+</project>
