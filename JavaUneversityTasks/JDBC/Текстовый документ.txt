@@ -1,0 +1,79 @@
+SELECT * FROM CUSTOMER;
+SELECT * FROM ORDERS ;
+SELECT * FROM TELECAST ;
+SELECT * FROM TRAILER ;
+ 
+
+CREATE ALIAS ADDORDER AS $$
+
+@CODE
+void addOrder(String trailerName, String telecastName, String firmName, Timestamp timestamp) {
+    int refTelecast = (SELECT ID_TELECAST FROM TELECAST WHERE NAME = telecastName);
+    int refTrailer = (SELECT ID_TRAILER FROM TRAILER WHERE NAME = trailerName);
+    int refCustomer = (SELECT ID_CUSTOMER FROM CUSTOMER WHERE FIRM = firmName);
+if (refFirm != 0 && refTelecast != 0 && refTrailer != 0) {
+ResultSet resultSet = (SELECT RELEASE_DATE FROM ORDERS);
+int flag = 0;
+ while (resultSet.next()){
+if(
+timestamp.equals(resultSet.getTimestamp(RELEASE_DATE))) { flag = 1; } }
+
+if (flag == 0) {
+INSERT INTO ORDERS (REF_CUSTOMER, REF_TELECAST, REF_TRAILER, RELEASE_DATE) VALUES (refCustomer, refTelecast, refTrailer , timestamp) } 
+}
+return (SELECT COST_MINUTE FROM TELECAST WHERE ID_TELECAST = refTelecast ) * (SELECT DURATION FROM TRAILER WHERE ID_TRAILER = refTrailer)
+}
+$$;
+
+
+
+
+
+
+
+CREATE ALIAS ADDORDER AS $$
+import java.sql.*;
+import java.util.*;
+@CODE
+void addOrder(String trailerName, String telecastName, String firmName, Timestamp timestamp) {
+        Connection connection = null;
+        try {
+
+            // get references
+            connection.setTransactionIsolation(Connection.TRANSACTION_READ_COMMITTED);
+
+            PreparedStatement preparedStatement = connection.prepareStatement("SELECT ID_TELECAST FROM TELECAST WHERE NAME = ?");
+            preparedStatement.setString(1, telecastName);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            int refTelecast = resultSet.getInt(ID_TELECAST);
+
+            preparedStatement = connection.prepareStatement("SELECT ID_CUSTOMER FROM CUSTOMER WHERE FIRM = ?");
+            preparedStatement.setString(1, trailerName);
+            resultSet = preparedStatement.executeQuery();
+            int refTrailer = resultSet .getInt(ID_TRAILER);
+
+            preparedStatement = connection.prepareStatement("SELECT ID_TRAILER FROM TRAILER WHERE NAME = ?");
+            preparedStatement.setString(1, firmName);
+            resultSet = preparedStatement.executeQuery();
+            int refFirm = resultSet .getInt(ID_CUSTOMER);
+
+            // check references
+            assert refFirm == 0 && refTelecast == 0 && refTrailer == 0;
+
+            // check release date
+            Statement statement = connection.createStatement();
+            ResultSet resultSet = statement.executeQuery("SELECT RELEASE_DATE FROM ORDERS");
+            while (resultSet.next())
+                assert timestamp.equals(resultSet.getTimestamp(RELEASE_DATE));
+
+            executeUpdateStatement("INSERT INTO ORDERS (REF_CUSTOMER, REF_TELECAST, REF_TRAILER, RELEASE_DATE) " +
+            "VALUES (?, ?, ?, ?)", Arrays.asList(refFirm, refTelecast, refTrailer, timestamp));
+        } catch (SQLException ex) {
+            try {
+                connection.rollback();
+            } catch (SQLException e) {
+                throw new RuntimeException(e);
+            }
+        }
+    }
+$$;

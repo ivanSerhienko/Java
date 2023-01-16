@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FunctionaLInterfaceFunction/FunctionaLInterfaceFunction.iml" filepath="$PROJECT_DIR$/FunctionaLInterfaceFunction/FunctionaLInterfaceFunction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FunctionaLInterfacePredicate/FunctionaLInterfacePredicate.iml" filepath="$PROJECT_DIR$/FunctionaLInterfacePredicate/FunctionaLInterfacePredicate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/FunctionaLInterfaces.iml" filepath="$PROJECT_DIR$/.idea/FunctionaLInterfaces.iml" />
+    </modules>
+  </component>
+</project>

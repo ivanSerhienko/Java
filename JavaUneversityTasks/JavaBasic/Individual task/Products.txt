@@ -1,0 +1,28 @@
+FoodStorage
+Amount of salami: 14
+Amount of ham: 10
+Amount of bear: 10
+Amount of carbonade: 17
+Amount of caviar: 23
+Amount of cheddar: 23
+Amount of cheese: 12
+Amount of coffee: 15
+Amount of cucumber: 21
+Amount of dough: 29
+Amount of fish fillet: 13
+Amount of garlic: 10
+Amount of ketchup: 23
+Amount of mozzarella: 17
+Amount of fish nori: 19
+Amount of olives: 99
+Amount of onion: 19
+Amount of parmesan: 21
+Amount of parsley: 16
+Amount of pasta: 40
+Amount of pepper: 25
+Amount of rice: 17
+Amount of tea: 15
+Amount of tomato: 20
+Amount of tuna: 11
+Amount of tea: 15
+Amount of bear: 10
